@@ -1,5 +1,6 @@
-# big-data
-Project for Big Data Computing course
+# Problem Statement
+
+Find the number of times each IP accessed the website
 
 # Instructions
 
@@ -9,8 +10,6 @@ Project for Big Data Computing course
 - Check if the directory has been succesfully created using `hdfs dfs -ls /`
 - Create a directory in HDFS to store the output file using `hdfs dfs mkdir /bd-project-output`
 - Check if the file has been succesfully copied over using `hdfs dfs -ls /bd-project-input`
-- `EXPLAIN HOW TO EXECUTE THE PROGRAM`
+- Evaluate the program in spark using `spark-shell < main.scala`
 - Check if the output file is present in HDFS using `hdfs dfs -ls /bd-project-output/output`
 - Print out the contents of the output using `hdfs dfs -cat /bd-project-output/output/*`
-
-# TODO
